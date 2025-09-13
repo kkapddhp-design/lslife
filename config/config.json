@@ -1,0 +1,37 @@
+{
+  "gang": {
+    "maxGangs": 10,
+    "maxMembersPerGang": 50,
+    "simulationInterval": 5000,
+    "defaultReputation": 50,
+    "defaultResources": 1000,
+    "defaultInfluence": 10
+  },
+  "simulation": {
+    "activitySuccessRate": 0.7,
+    "experienceGainRate": 1.0,
+    "loyaltyChangeRate": 0.3,
+    "skillImprovementChance": 0.3
+  },
+  "territories": [
+    "Downtown",
+    "Industrial District", 
+    "Uptown",
+    "Suburbs",
+    "Waterfront",
+    "Old Town"
+  ],
+  "gangTypes": [
+    "Criminal",
+    "Racing",
+    "Protection",
+    "Smuggling",
+    "Territory Control",
+    "General"
+  ],
+  "logging": {
+    "level": "info",
+    "logToFile": false,
+    "logFile": "logs/gang-mod.log"
+  }
+}
