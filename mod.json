@@ -1,0 +1,18 @@
+{
+  "name": "LSLife Gang Mod",
+  "version": "1.0.0",
+  "description": "A comprehensive gang modification for life simulation games",
+  "author": "kkapddhp-design",
+  "main": "src/main.js",
+  "dependencies": {},
+  "tags": ["gang", "life", "simulation", "roleplay"],
+  "compatibility": {
+    "minVersion": "1.0.0"
+  },
+  "features": [
+    "Gang creation and management",
+    "Territory control system",
+    "Gang hierarchy and roles",
+    "Gang activities and missions"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "gangSettings": {
+    "maxMembers": 20,
+    "maxGangs": 10,
+    "territoryControlEnabled": true,
+    "gangWarEnabled": true,
+    "reputationSystem": true
+  },
+  "territorySettings": {
+    "captureTime": 300,
+    "defenseBonus": 1.5,
+    "incomeMultiplier": 1.2,
+    "maxTerritories": 5
+  },
+  "activities": {
+    "heists": {
+      "enabled": true,
+      "cooldown": 3600,
+      "minMembers": 3,
+      "rewards": {
+        "money": [1000, 5000],
+        "reputation": [10, 50]
+      }
+    },
+    "turf_wars": {
+      "enabled": true,
+      "duration": 600,
+      "minMembers": 5,
+      "rewards": {
+        "territory": true,
+        "reputation": [20, 100]
+      }
+    },
+    "protection_racket": {
+      "enabled": true,
+      "cooldown": 1800,
+      "minMembers": 2,
+      "rewards": {
+        "money": [500, 2000],
+        "reputation": [5, 25]
+      }
+    }
+  },
+  "ranks": [
+    {
+      "name": "Initiate",
+      "level": 1,
+      "permissions": ["chat", "participate_activities"]
+    },
+    {
+      "name": "Soldier",
+      "level": 2,
+      "permissions": ["chat", "participate_activities", "invite_members"]
+    },
+    {
+      "name": "Lieutenant",
+      "level": 3,
+      "permissions": ["chat", "participate_activities", "invite_members", "kick_members", "manage_territory"]
+    },
+    {
+      "name": "Boss",
+      "level": 4,
+      "permissions": ["all"]
+    }
+  ]
+}
